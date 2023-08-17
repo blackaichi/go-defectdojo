@@ -1,13 +1,13 @@
 /*
 Package defectdojo provides a client for using the DefectDojo API.
 
-Installation
+# Installation
 
 Import the module in your source code files:
 
-	import "github.com/truemilk/go-defectdojo/defectdojo"
+	import "github.com/blackaichi/go-defectdojo/defectdojo"
 
-Usage
+# Usage
 
 Define a new Defectdojo client:
 
@@ -45,7 +45,7 @@ These should be used when passing parameters to methods that create/update/delet
 NOTE: Using the context package, one can easily pass cancellation signals and deadlines to various services of the client for handling a request.
 In case there is no context available, then context.Background() can be used as a starting point.
 
-Authentication
+# Authentication
 
 The go-defectdojo library handles authentication via Token. You can retrieve a valid API v2 Key from within your DefectDojo instance.
 

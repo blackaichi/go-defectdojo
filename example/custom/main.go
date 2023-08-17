@@ -9,7 +9,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/truemilk/go-defectdojo/defectdojo"
+	"github.com/blackaichi/go-defectdojo/defectdojo"
 )
 
 func main() {

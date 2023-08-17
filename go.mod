@@ -1,4 +1,4 @@
-module github.com/truemilk/go-defectdojo
+module github.com/blackaichi/go-defectdojo
 
 go 1.17
 
